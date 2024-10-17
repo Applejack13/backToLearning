@@ -1,0 +1,17 @@
+.flex-container {
+  display: flex;
+  justify-content: space-between; /* Равномерное распределение колонок */
+  padding: 0 50px;
+  background-color: #f45687; /* Цвет фона */
+}
+
+.flex-container > div {
+  max-height: 150px;
+  flex: 1; /* Все колонки занимают одинаковую ширину */
+  margin: 0 10px; /* Промежуток между колонками */
+  background-color: white; /* Цвет фона для колонок */
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px; /* Округлённые углы */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Лёгкая тень */
+}
