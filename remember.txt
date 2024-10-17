@@ -1,2 +1,0 @@
-//Remember, you should use "use strict"
-
